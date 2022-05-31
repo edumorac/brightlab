@@ -152,6 +152,45 @@
     padding: 20px 50px;
   }
 
+  .spanish-travelers {
+    background-color: #fff;
+    padding: 100px 0 150px 0;
+    }
+  
+    .spanish-text {
+      font-size: 70px;
+      font-family: "Lato", sans-serif;
+      color: #e6354b;
+      font-weight: 900;
+      padding: 0;
+    }
+
+    .journey {
+      font-size: 32px;
+      font-weight: 700;
+    }
+  
+    .project-visit {
+      background-color: #fff;
+      padding: 100px 0 0 0;
+  }
+  
+    .btn-project {
+      background-color: #e6354b;
+      color: #fff;
+      font-weight: 300;
+      font-size: 1.2rem;
+      padding: 1.5rem;
+      border: #e6354b solid;
+      text-decoration: none;
+  }
+  
+    .btn-project:hover {
+      background-color: #fff;
+      color: #e6354b;
+      border: #e6354b solid;
+  }
+
   .footer {
 	background-color: #e6354b;
 	color: #fff;
@@ -208,19 +247,35 @@
 
   @media (max-width: 1140px) {
 
+    .about {
+      padding: 40px 0 20px 0;
+      }
+
+      .square-story {
+        padding: 10px 30px;
+        }
+
     .paragraph-story {
       padding: 0 5px;
-      font-size: 22px;
+      font-size: 20px;
     }
+
+    .square-mission {
+      padding: 10px 30px;
+      }
 
     .paragraph-mission {
       padding: 0 5px;
-      font-size: 22px;
+      font-size: 20px;
     }
+
+    .square-approach {
+      padding: 10px 30px;
+      }
 
     .paragraph-approach {
       padding: 0 5px;
-      font-size: 22px;
+      font-size: 20px;
     }
 
     .logotype {
@@ -231,13 +286,29 @@
       font-size: 20px;
     }
 
-    .coming-text {
-      font-size: 40px;
+    .spanish-travelers {
+      padding: 0 0 50px 0;
+      }
+    
+      .spanish-text {
+        font-size: 60px;
+      }
+  
+      .journey {
+        font-size: 30px;
+      }
+
+      .project-visit {
+        padding: 50px 0 0 0;
+    }
+    
+      .btn-project {
+        font-size: 14px;
+        padding: 16px;
     }
 
     .contact-us {
       font-size: 50px;
-      font-weight: 900;
       padding: 0;
     }
 
