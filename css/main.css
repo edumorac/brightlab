@@ -65,91 +65,26 @@
   padding: 100px 0 20px 0;
   text-align: center;
   }
-
-  .title-story {
+  .story {
   font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 60px;
+  color: #000;
+  padding: 0 20%;
   }
 
-  .square-story {
-  background: #e6354b;
-  color: #fff;
-  border: 2px solid #e6354b;
-  padding: 20px 40px;
-  text-decoration: none;
-  display: inline-block;
+  .title-story {
+    padding-bottom: 20px;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 40px;
   }
 
   .paragraph-story {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 28px;
-  margin: 0 auto;
+  font-size: 26px;
   color: #000;
-  padding: 20px 50px;
-  }
-
-  .mission {
-    background-color: #FFF;
-    color: #000;
-    margin: 0 auto;
-    padding: 20px 0 20px 0;
-    text-align: center;
-    }
-
-  .title-mission {
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 60px;
-  }
-
-  .square-mission {
-  background: #e6354b;
-  color: #fff;
-  border: 2px solid #e6354b;
-  padding: 20px 40px;
-  text-decoration: none;
-  display: inline-block;
-  }
-
-  .paragraph-mission {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 28px;
-    margin: 0 auto;
-    padding: 20px 50px;
-  }
-
-  .approach {
-    background-color: #FFF;
-    color: #000;
-    margin: 0 auto;
-    padding: 20px 0 100px 0;
-    text-align: center;
-    }
-
-  .title-approach {
-    font-family: 'Lato', sans-serif;
-    font-weight: 800;
-    font-size: 60px;
-  }
-
-  .square-approach {
-    background: #e6354b;
-    color: #fff;
-    border: 2px solid #e6354b;
-    padding: 20px 40px;
-    text-decoration: none;
-    display: inline-block;
-  }
-
-  .paragraph-approach {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 28px;
-    margin: 0 auto;
-    padding: 20px 50px;
   }
 
   .spanish-travelers {
@@ -250,30 +185,12 @@
     .about {
       padding: 40px 0 20px 0;
       }
-
-      .square-story {
-        padding: 10px 30px;
-        }
+	
+	  .story {
+    padding: 0 5%;
+    }
 
     .paragraph-story {
-      padding: 0 5px;
-      font-size: 20px;
-    }
-
-    .square-mission {
-      padding: 10px 30px;
-      }
-
-    .paragraph-mission {
-      padding: 0 5px;
-      font-size: 20px;
-    }
-
-    .square-approach {
-      padding: 10px 30px;
-      }
-
-    .paragraph-approach {
       padding: 0 5px;
       font-size: 20px;
     }
