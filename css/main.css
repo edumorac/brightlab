@@ -11,32 +11,24 @@
 	width: 80%;
   }
 
-  header {
-  position: relative;
-  padding: 10px 0 10px 240px;
-  }
-
   .navbar {
-    background-color: #e6354b;
+    background-color: #fff;
   }
 
   .navbar-brand {
-    color: #FFF;
+    color: #4D4D4D;
     font-weight: 900;
   }
 
   .nav-link {
-    color: #FFF;
+    color: #4D4D4D;
     font-weight: 700;
   }
 
   .landing {
-  background-image: url("../img/cover-blue.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  padding: 302px 0 320px 0;
+    background-color: #FFF;
+    width: 100%;
+    padding: 100px 0 100px 0;
   }
 
   .landing-text {
@@ -44,8 +36,15 @@
   }
 
   .hola {
+    background-image: url(/img/cover-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFF;
     text-align: center;
-    padding: 50px 0 0 0;
+    border-radius: 10px;
+    padding: 220px 0;
+    margin: 0 100px;
 	}
 
   .paragraph-hola {
@@ -53,7 +52,7 @@
     font-weight: 400;
     font-size: 36px;
     text-align: center;
-    margin: -0;
+    margin: 0;
     color: #e6354b;
   }
 
@@ -61,14 +60,15 @@
 	background-color: #FFF;
 	color: #e6354b;
   width: 100%;
-	margin: 0 auto;
-  padding: 100px 0 20px 0;
-  text-align: center;
+  padding: 100px 300px 20px 300px;
+  text-align: left;
+  margin: 0 auto;
   }
+
   .story {
   font-family: 'Lato', sans-serif;
-  color: #000;
-  padding: 0 20%;
+  color: #4D4D4D;
+  text-align: justify;
   }
 
   .title-story {
@@ -81,10 +81,11 @@
   }
 
   .paragraph-story {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 26px;
-  color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: #000;
+    text-align: justify;
   }
 
   .spanish-travelers {
@@ -104,6 +105,13 @@
       font-size: 32px;
       font-weight: 700;
     }
+
+    .video-embed {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+  }
   
     .project-visit {
       background-color: #fff;
@@ -182,11 +190,20 @@
 
   @media (max-width: 1140px) {
 
+    .landing {
+      padding: 100px 0 20px 0;
+    }
+
+    .hola {
+      padding: 100px 10px;
+      margin: 0;
+    }
+
     .about {
       padding: 40px 0 20px 0;
       }
-	
-	  .story {
+
+    .story {
     padding: 0 5%;
     }
 
@@ -195,12 +212,20 @@
       font-size: 20px;
     }
 
+    .gif {
+      padding-bottom: 40px;
+    }
+
     .logotype {
       max-width: 100%;
     }
 
     .paragraph-hola {
       font-size: 20px;
+    }
+
+    .title-story {
+      font-size: 24px;
     }
 
     .spanish-travelers {
@@ -219,7 +244,7 @@
         padding: 50px 0 0 0;
     }
     
-      .btn-project {
+    .btn-project {
         font-size: 14px;
         padding: 16px;
     }
