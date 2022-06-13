@@ -36,7 +36,7 @@
   }
 
   .hola {
-    background-image: url(img/cover-blue.png);
+    background-image: url(/img/cover-blue.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
