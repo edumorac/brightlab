@@ -26,9 +26,12 @@
   }
 
   .landing {
-    background-color: #FFF;
+    background-image: url("../img/cover-blue.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    padding: 100px 0 100px 0;
+    padding: 200px 0;
   }
 
   .landing-text {
@@ -36,16 +39,8 @@
   }
 
   .hola {
-    background-image: url(/img/cover-blue.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #FFF;
     text-align: center;
-    border-radius: 10px;
-    padding: 220px 0;
-    margin: 0 100px;
-	}
+}
 
   .paragraph-hola {
     font-family: 'Lato', sans-serif;
@@ -101,17 +96,14 @@
       padding: 0;
     }
 
+.carousel-span {
+        margin: 0 200px;
+      }
+
     .journey {
       font-size: 32px;
       font-weight: 700;
     }
-
-    .video-embed {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 50px 0;
-  }
   
     .project-visit {
       background-color: #fff;
@@ -234,6 +226,10 @@
     
       .spanish-text {
         font-size: 60px;
+      }
+
+	.carousel-span {
+        margin: 0;
       }
   
       .journey {
